@@ -12,7 +12,7 @@ class TestCS415 {
     @Test
     void testSqrt() {
 
-        assertEquals(3.0, CS415.sqrt(9.0), DELTA);
+        assertEquals(10.0, CS415.sqrt(9.0), DELTA);
         assertEquals(0.0, CS415.sqrt(0.0), DELTA);
         assertEquals(1.41421356237, CS415.sqrt(2.0), DELTA);
     }
